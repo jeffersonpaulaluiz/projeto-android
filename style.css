@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+}
+
+
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #728d9e56 , #43646bd0 );
+    color: white;
+}
+
+
+header > h1{
+    padding: 30px;
+}
+
+nav > ul{
+    display:flex;
+    justify-content: left;
+    padding-top:30px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    gap: 10px;
+    list-style: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color:#6ec2d493 ;
+    
+}
+.container{
+    width: 760px;
+    background-color: white;
+    margin-bottom: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.336);
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.irina > img{
+    display: flex;
+    max-width: 760px;
+}
+
+article > h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 20px;
+    color: #43646b;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top:  30px;
+    padding: 30px;
+    background-color:#43646b ;
+    
+}
+
+h2{
+    margin: 25px ;
+    font-size: 30px;
+    background-image:linear-gradient(to right, #6ec1d457, #6ec1d414);
+    color: #43646b;
+    
+}
+
+h3{
+    padding: 25px ;
+    font-size: 23px;
+}
+
+p{
+    padding: 0px 25px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+
+    
+.more{
+    width: 700px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:15px;
+    padding-bottom: 10px;
+    background-color: #529eb05a;
+}
+
+.more > p{
+    margin-bottom: 20px;
+}
+
+
+h3{
+    background-color:#5c848dad ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.android > ul{
+    margin-left:25px;
+    margin-bottom: 20px;
+    list-style-type: square;
+}
+
+ul{
+    display:inline-block;
+}
+
+#li2{
+    margin-left: 100px;
+}
+
+#fim{
+    margin: 0px 20px;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #43646bd0;
+    color: white;
+    font-size: 13px;
+   
+
+}
